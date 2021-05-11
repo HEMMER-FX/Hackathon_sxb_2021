@@ -30,7 +30,7 @@ html {
 .IndexTitle {
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .IndexSubTitle {
@@ -115,6 +115,7 @@ button {
     font-weight: 700;
     position: relative;
     will-change: transform;
+    margin-bottom: 5%;
 }
 
 .button-mat {
@@ -172,3 +173,23 @@ button {
     left: 25%;
     right: 25%;
 }
+
+input {
+    padding: 15px 100px;
+    margin:10px 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    background-color:#262626;
+    color:white;
+    margin-left: 2%;
+    margin-top: 2%;
+    }
+    input:hover {
+    opacity:0.5;}
+  
+  .submit {
+    margin-left: 2.5%;
+  
+  }

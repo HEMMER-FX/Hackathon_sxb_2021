@@ -1,1 +1,18 @@
 @import 'body.css';
+input {
+    padding: 15px 100px;
+    margin:10px 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    background-color:#262626;
+    color:white;
+    }
+    input:hover {
+    opacity:0.5;}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}

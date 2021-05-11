@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/Indexstyle.css" type="text/css">
     </head>
     <body>
+    <?php include 'form.php' ?>
         <div class = "IndexTitle">
             <h1>Discover Mars</h1>
         </div>
@@ -17,18 +18,18 @@
             <h3>How Mars Can Help You Live a Better Life ...</h3>
         </div>
         <div class="main-contain"></div>
-        <?php include 'form.php' ?>
+
 
     <div class="div">
         <div class="flex-1">
             <a href="voyage.php" >
-            <button class="button btn-1">Voyage</button><br>
+            <button class="button btn-1">Voyage</button></a><br>
             <a href="vaisseau.php" >
-            <button class="button btn-1">Vaisseau Spatial</button>
+            <button class="button btn-1">Vaisseau Spatial</button></a>
             <a href="reparation.php" >
-            <button class="button btn-1">Reparation</button>
+            <button class="button btn-1">Reparation</button></a>
             <a href="gastronomie.php" >
-            <button class="button btn-1">Space eat</button>
+            <button class="button btn-1">Space eat</button></a>
         </div>
     </div>
 <?php include 'resultat.php' ?>
