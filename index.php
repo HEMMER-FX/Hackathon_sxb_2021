@@ -35,8 +35,21 @@
     </div>
 <?php include 'resultat.php' ?>
 <?php 
-var_dump($tableau);
-echo 'photo' . '<img src="$tableau"/>';
+foreach($tableau as $url ){
+
+    foreach($url as $url2)
+    { 
+        foreach($url2 as $url3){
+           }  
+    }   
+}
+
+  echo "<img src='$url3'>";
+var_dump($url);
+var_dump($url2);
+var_dump($url3);
+
+
 
 ?>
 
