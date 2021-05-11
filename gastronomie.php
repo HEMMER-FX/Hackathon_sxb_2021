@@ -8,6 +8,7 @@ require_once "header.php";
         <title>Title</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/body.css" />
 
 
     <body>
@@ -17,9 +18,9 @@ require_once "header.php";
     </div>
     <div class="uk-container2 ">   
     <div class="switch" uk-switcher="animation: uk-animation-fade; toggle: > * ">
-    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large " type="button"><p>Menu<p></button>
-    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large" type="button"><p>Specialité<p></button>
-    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large" type="button"><p>Boissons<p></button>
+    <button class="button btn-1" type="button"><p>Menu<p></button>
+    <button class="button btn-1" type="button"><p>Specialité<p></button>
+    <button class="button btn-1" type="button"><p>Boissons<p></button>
 </div>
 
 <ul class="uk-switcher uk-margin">

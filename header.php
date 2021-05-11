@@ -4,7 +4,7 @@
         <title>Title</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/body.css" />
        <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/css/uikit.min.css" />
 
@@ -18,10 +18,11 @@
     </head>
     <body>
     
-    <nav class="uk-navbar uk-navbar-container uk-margin"  uk-offcanvas>
+    <nav class="uk-navbar uk-navbar-container uk-margin uk-navbar-transparent"  uk-offcanvas>
+    <a href="index.php"><img src="./Images/logo.png" width="60px"></a>    
     <div class="uk-navbar-left">
         <a class="uk-navbar-toggle" href="#">
-            <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></button>
+            <button class="uk-button uk-button-default uk-margin-small-right uk-button-secondary" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></button>
             <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
@@ -43,7 +44,9 @@
 </nav>
  
         
-    
+<video autoplay muted loop id="myVideo">
+  <source src="./Images/espace.mp4" type="video/mp4">
+</video>
 
 
 
