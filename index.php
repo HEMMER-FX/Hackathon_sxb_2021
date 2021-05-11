@@ -31,15 +31,7 @@
             <button class="button btn-1">Space eat</button>
         </div>
     </div>
-    <div style="background-color:white;font-size:20px;color:red;">
-    <?php
-        if(($_POST['name']) === 'arc') {
-            echo $resultat;
-        }else{
-            echo 'resultat inconnu';
-        }
-    ?>
-    </div>
+<?php include 'resultat.php' ?>
 
    
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
