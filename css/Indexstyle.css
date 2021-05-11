@@ -9,7 +9,7 @@ h3,
 h4,
 p {
     font-family: Pacifico;
-    color: #262626;
+    color: white;
 }
 
 h1 {
@@ -18,13 +18,6 @@ h1 {
 
 h3 {
     font-size: 1.5vw;
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    background: url(../Images/outerspace-58.gif) no-repeat center center fixed;
-    background-size: cover;
 }
 
 .IndexTitle {
@@ -63,7 +56,7 @@ h1 {
     font-size: 6rem;
     padding: 1rem;
     text-align: center;
-    color: #262626;
+    color: white;
     font-weight: 500;
     margin: 5rem 0 0 0;
 }
@@ -71,7 +64,7 @@ h1 {
 button {
     border: none;
     text-decoration: none;
-    color: #262626;
+    color: white;
     cursor: pointer;
 }
 
@@ -107,7 +100,7 @@ button {
 
 .button {
     padding: 2rem 7rem;
-    background: #262626;
+    background: white;
     text-align: center;
     display: inline-block;
     font-size: 1.7rem;
@@ -137,7 +130,7 @@ button {
 }
 
 .button-mat:hover .psuedo-text {
-    color: #262626;
+    color: white;
 }
 
 .button-mat:hover {
@@ -152,8 +145,8 @@ button {
 }
 
 .btn-1:before {
-    border-top: 0.3rem solid #262626;
-    border-bottom: 0.3rem solid #262626;
+    border-top: 0.3rem solid white;
+    border-bottom: 0.3rem solid white;
     display: block;
     position: absolute;
     background: transparent;
@@ -176,20 +169,21 @@ button {
 
 input {
     padding: 15px 100px;
-    margin:10px 4px;
+    margin: 10px 4px;
     cursor: pointer;
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    background-color:#262626;
-    color:white;
+    background-color: #262626;
+    color: white;
     margin-left: 2%;
     margin-top: 2%;
-    }
-    input:hover {
-    opacity:0.5;}
-  
-  .submit {
+}
+
+input:hover {
+    opacity: 0.5;
+}
+
+.submit {
     margin-left: 2.5%;
-  
-  }
+}
