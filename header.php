@@ -24,6 +24,7 @@
             <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></button>
             <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <?php include 'form.php' ?>
 
                     <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
                     <li><h1>Discover Mars</h1></li>

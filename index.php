@@ -1,3 +1,4 @@
+<? include 'codex.php' ?>
 <!DOCTYPE html>
 <html>
 
@@ -16,6 +17,7 @@
             <h3>How Mars Can Help You Live a Better Life ...</h3>
         </div>
         <div class="main-contain"></div>
+        <?php include 'form.php' ?>
 
     <div class="div">
         <div class="flex-1">
@@ -28,6 +30,15 @@
             <a href="gastronomie.php" >
             <button class="button btn-1">Space eat</button>
         </div>
+    </div>
+    <div style="background-color:white;font-size:20px;color:red;">
+    <?php
+        if(($_POST['name']) === 'arc') {
+            echo $resultat;
+        }else{
+            echo 'resultat inconnu';
+        }
+    ?>
     </div>
 
    
