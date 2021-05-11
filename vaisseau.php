@@ -8,18 +8,17 @@ require_once "header.php";
         <title>Title</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/body.css" />
+
 
     <body>
 
     <div class="uk-container uk-text-center">   
-    <h1>Reparations</h1>
+    <h1>Vaisseau spatial</h1>
     </div>
     <div class="uk-container2 ">   
     <div class="switch" uk-switcher="animation: uk-animation-fade; toggle: > * ">
-    <button class="button btn-1" type="button"><p>Presentation<p></button>
-    <button class="button btn-1" type="button"><p>Prestation<p></button>
-    <button class="button btn-1" type="button"><p>Piece en vente<p></button>
+    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large " type="button"><p>location<p></button>
+    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large" type="button"><p>achat<p></button>
 </div>
 
 <ul class="uk-switcher uk-margin">

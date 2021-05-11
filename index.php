@@ -1,3 +1,4 @@
+<? include 'codex.php' ?>
 <!DOCTYPE html>
 <html>
 
@@ -16,18 +17,22 @@
             <h3>How Mars Can Help You Live a Better Life ...</h3>
         </div>
         <div class="main-contain"></div>
+        <?php include 'form.php' ?>
 
     <div class="div">
         <div class="flex-1">
-            <form  action="gastronomie.php" method="POST">
-            <button class="button btn-1">Gastronomie</button>
-            <form  action="voyage.php" method="POST">
-            <button class="button btn-1">Voyage</button>
-            <form  action="reparation.php" method="POST">
+            <a href="voyage.php" >
+            <button class="button btn-1">Voyage</button><br>
+            <a href="vaisseau.php" >
             <button class="button btn-1">Vaisseau Spatial</button>
+            <a href="reparation.php" >
+            <button class="button btn-1">Reparation</button>
+            <a href="gastronomie.php" >
+            <button class="button btn-1">Space eat</button>
         </div>
     </div>
-    </h1>
+<?php include 'resultat.php' ?>
+
    
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>

@@ -25,14 +25,17 @@
             <button class="uk-button uk-button-default uk-margin-small-right uk-button-secondary" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></button>
             <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <?php include 'form.php' ?>
 
                     <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
                     <li><h1>Discover Mars</h1></li>
                         <li class="uk-active"><a href="index.php">Accueil</a></li>
                         <li class="uk-parent">
-                            <a href="gastronomie.php">Gastronomie</a>
+                            
                             <a href="voyage.php">Voyages</a>
+                            <a href="vaisseau.php">Vaisseau</a>
                             <a href="reparation.php">Reparations</a>
+                            <a href="gastronomie.php">Space Eat</a>
                         </li>
                       
                     </ul>

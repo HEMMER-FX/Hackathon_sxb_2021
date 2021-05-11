@@ -29,6 +29,7 @@ require_once "header.php";
     <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.</li>
 </ul>
     </div>
+    <?php include 'resultat.php' ?>
 
     </body>
 </html>
