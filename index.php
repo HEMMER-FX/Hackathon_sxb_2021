@@ -29,7 +29,7 @@
             <button class="button btn-1">Space eat</button>
         </div>
     </div>
-    </h1>
+
    
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
