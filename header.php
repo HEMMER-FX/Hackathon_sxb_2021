@@ -29,9 +29,11 @@
                     <li><h1>Discover Mars</h1></li>
                         <li class="uk-active"><a href="index.php">Accueil</a></li>
                         <li class="uk-parent">
-                            <a href="gastronomie.php">Gastronomie</a>
+                            
                             <a href="voyage.php">Voyages</a>
+                            <a href="vaisseau.php">Vaisseau</a>
                             <a href="reparation.php">Reparations</a>
+                            <a href="gastronomie.php">Space Eat</a>
                         </li>
                       
                     </ul>
