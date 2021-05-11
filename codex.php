@@ -9,7 +9,8 @@ $data = curl_exec($curl);
 if(curl_getinfo($curl, CURLINFO_HTTP_CODE) === 200 ) {
     $data = json_decode($data,true);
     //$resultat = ($data);
-    $tableau=($data[0]['url']);
+    //$tableau=($data[0]);
+    $tableau[]=$data;
     return $tableau;
 } else {
     echo "erreur 404";
