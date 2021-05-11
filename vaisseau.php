@@ -17,9 +17,10 @@ require_once "header.php";
     </div>
     <div class="uk-container2 ">   
     <div class="switch" uk-switcher="animation: uk-animation-fade; toggle: > * ">
-    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large " type="button"><p>location<p></button>
-    <button class="uk-button uk-button-default uk-border-rounded uk-box-shadow-hover-large" type="button"><p>achat<p></button>
-</div>
+    <button class="button btn-1" type="button"><p>Menu<p></button>
+    <button class="button btn-1" type="button"><p>Specialité<p></button>
+    <button class="button btn-1" type="button"><p>Boissons<p></button>
+    </div>
 
 <ul class="uk-switcher uk-margin">
     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
