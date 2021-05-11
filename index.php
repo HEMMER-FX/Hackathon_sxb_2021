@@ -33,6 +33,11 @@
         </div>
     </div>
 <?php include 'resultat.php' ?>
+<?php 
+var_dump($tableau);
+echo 'photo' . '<img src="$tableau"/>';
+
+?>
 
    
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
