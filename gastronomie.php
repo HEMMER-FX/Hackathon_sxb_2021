@@ -14,14 +14,14 @@ require_once "header.php";
     <body>
 
     <div class="uk-container uk-text-center">   
-    <h1>Gastronomie</h1>
+    <h1>Space Eat</h1>
     </div>
     <div class="uk-container2 ">   
     <div class="switch" uk-switcher="animation: uk-animation-fade; toggle: > * ">
     <button class="button btn-1" type="button"><p>Menu<p></button>
     <button class="button btn-1" type="button"><p>Specialité<p></button>
     <button class="button btn-1" type="button"><p>Boissons<p></button>
-</div>
+    </div>
 
 <ul class="uk-switcher uk-margin">
     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
