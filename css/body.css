@@ -7,8 +7,7 @@ button p {
 
 .uk-container {
     height: 200px;
-    background-color: gray;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .uk-container2 {
@@ -26,6 +25,11 @@ button p {
 
 .uk-switcher {
     padding-top: 30px;
+}
+
+.uk-navbar {
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 button {
@@ -137,9 +141,93 @@ button {
     min-height: 100%;
     z-index: -100;
 }
-.liste_foreach{
-    color :bisque;
+
+.titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.titre .content {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 2px solid #ffeb3b;
+    padding: 30px;
     text-align: center;
-    font-size: 1.2em;
-    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.titre .content p {
+    color: #fff;
+}
+
+.titre span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.titre span:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.titre span:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+.titre span:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.titre span:nth-child(4) {
+    transform: rotate(270deg);
+}
+
+.titre span:nth-child(2):before {
+    animation-delay: -2s;
+}
+
+.titre span:nth-child(4):before {
+    animation-delay: -2s;
+}
+
+.titre span:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: white;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    50% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    50.1% {
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+    100% {
+        transform: scaleX(0);
+        transform-origin: right;
+    }
 }
