@@ -16,3 +16,9 @@ input {
     display: flex;
     justify-content: center;
 }
+.liste_foreach{
+    color: bisque;
+    font-size: x-large;
+    font-family: cursive;
+    text-align: center;
+}
