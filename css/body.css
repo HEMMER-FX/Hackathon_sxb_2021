@@ -137,3 +137,9 @@ button {
     min-height: 100%;
     z-index: -100;
 }
+.liste_foreach{
+    color :bisque;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}

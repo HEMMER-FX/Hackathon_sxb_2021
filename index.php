@@ -1,4 +1,5 @@
-<? include 'codex.php' ?>
+<? include 'codex.php'; 
+include 'codex2.php' ?>
 <!DOCTYPE html>
 <html>
 
@@ -35,20 +36,18 @@
     </div>
 <?php include 'resultat.php' ?>
 <?php 
-foreach($tableau as $url ){
+foreach($tableau as $tab ){
 
-    foreach($url as $url2)
+    foreach($tab as $url2)
     { 
         foreach($url2 as $url3){
+            echo '<li class="liste_foreach">' . "$url3" . '</li>';
+            echo "<img style='width:200px;height:200px;margin-left:50%;' src='$url3'>";
            }  
     }   
 }
 
   echo "<img src='$url3'>";
-var_dump($url);
-var_dump($url2);
-var_dump($url3);
-
 
 
 ?>
