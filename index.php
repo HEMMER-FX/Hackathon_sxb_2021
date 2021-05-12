@@ -27,8 +27,10 @@
             <button class="button btn-1">Voyage</button></a><br>
             <a href="vaisseau.php" >
             <button class="button btn-1">Vaisseau Spatial</button></a>
+</br>
             <a href="reparation.php" >
             <button class="button btn-1">Reparation</button></a>
+</br>
             <a href="gastronomie.php" >
             <button class="button btn-1">Space eat</button></a>
         </div>

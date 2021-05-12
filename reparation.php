@@ -12,8 +12,14 @@ require_once "header.php";
 
     <body>
 
-    <div class="uk-container uk-text-center">   
+    <div class="uk-container uk-text-center"> 
+    <div class="titre">
+    <span></span>
+        <span></span>
+        <span></span>
+        <span></span>   
     <h1>Reparations</h1>
+</div>
     </div>
     <div class="uk-container2 ">   
     <div class="switch" uk-switcher="animation: uk-animation-fade; toggle: > * ">
